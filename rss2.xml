@@ -9,7 +9,7 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>昼眠听风，夜坐听雨</description>
-    <pubDate>Sat, 04 Jul 2020 08:40:41 GMT</pubDate>
+    <pubDate>Sat, 04 Jul 2020 09:46:19 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -19,12 +19,17 @@
       <pubDate>Thu, 02 Jul 2020 05:17:26 GMT</pubDate>
       <description>
       
-        &lt;p&gt;​    😋            “感受来自世界每一寸维度的的人们各自忙碌充满张力的人间烟火。”&lt;/p&gt;
+        &lt;blockquote class=&quot;blockquote-center&quot;&gt;
+            &lt;i class=&quot;fa fa-quote-left&quot;&gt;&lt;/i&gt;
+            &lt;p&gt;😋 “感受来自世界每一寸维度的的人们各自忙碌充满张力的人间烟火。”&lt;/p&gt;
+
+            &lt;i class=&quot;fa fa-quote-right&quot;&gt;&lt;/i&gt;
+          &lt;/blockquote&gt;
       
       </description>
       
       
-      <content:encoded><![CDATA[<p>​    😋            “感受来自世界每一寸维度的的人们各自忙碌充满张力的人间烟火。”</p><a id="more"></a> ]]></content:encoded>
+      <content:encoded><![CDATA[<blockquote class="blockquote-center">            <i class="fa fa-quote-left"></i>            <p>😋 “感受来自世界每一寸维度的的人们各自忙碌充满张力的人间烟火。”</p>            <i class="fa fa-quote-right"></i>          </blockquote><a id="more"></a> ]]></content:encoded>
       
       <comments>https://serendipitious.top/2020/07/02/%E4%BD%A0%E5%A5%BD%E5%93%87/#disqus_thread</comments>
     </item>

@@ -212,7 +212,7 @@
 
         <div class="post-meta">
         
-      <i class="fa fa-check-square-o" aria-hidden="true"></i>
+        <i class="fa fa-thumb-tack"></i>
       <font color=FF4318>Top</font>
       <span class="post-meta-divider">|</span>
 
@@ -229,7 +229,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-07-04 16:40:41" itemprop="dateModified" datetime="2020-07-04T16:40:41+08:00">2020-07-04</time>
+                <time title="修改时间：2020-07-04 17:46:19" itemprop="dateModified" datetime="2020-07-04T17:46:19+08:00">2020-07-04</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -247,7 +247,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>34</span>
+              <span>33</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -266,7 +266,12 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>​    😋            “感受来自世界每一寸维度的的人们各自忙碌充满张力的人间烟火。”</p>
+          <blockquote class="blockquote-center">
+            <i class="fa fa-quote-left"></i>
+            <p>😋 “感受来自世界每一寸维度的的人们各自忙碌充满张力的人间烟火。”</p>
+
+            <i class="fa fa-quote-right"></i>
+          </blockquote>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2020/07/02/%E4%BD%A0%E5%A5%BD%E5%93%87/#more" rel="contents">
@@ -429,6 +434,35 @@
 </div>
 
 
+
+    <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+    <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+    <span class="post-meta-divider">|</span>
+    <span id="busuanzi_container_site_uv">有<span id="busuanzi_value_site_uv"></span>位小伙伴来过</span>
+    <span class="post-meta-divider">|</span>
+<!-- 不蒜子计数初始值纠正 -->
+<script>
+$(document).ready(function() {
+
+    var int = setInterval(fixCount, 50);  // 50ms周期检测函数
+    var countOffset = 20000;  // 初始化首次数据
+
+    function fixCount() {            
+       if (document.getElementById("busuanzi_container_site_pv").style.display != "none")
+        {
+            $("#busuanzi_value_site_pv").html(parseInt($("#busuanzi_value_site_pv").html()) + countOffset); 
+            clearInterval(int);
+        }                  
+        if ($("#busuanzi_container_site_pv").css("display") != "none")
+        {
+            $("#busuanzi_value_site_uv").html(parseInt($("#busuanzi_value_site_uv").html()) + countOffset); // 加上初始数据 
+            clearInterval(int); // 停止检测
+        }  
+    }
+       	
+});
+</script> 
 
 
         
