@@ -9,29 +9,8 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>昼眠听风，夜坐听雨</description>
-    <pubDate>Fri, 18 Sep 2020 02:43:39 GMT</pubDate>
+    <pubDate>Fri, 10 Jul 2020 05:18:41 GMT</pubDate>
     <generator>http://hexo.io/</generator>
-    
-    <item>
-      <title>尝试</title>
-      <link>https://serendipitious.top/2020/09/18/%E5%B0%9D%E8%AF%95/</link>
-      <guid>https://serendipitious.top/2020/09/18/%E5%B0%9D%E8%AF%95/</guid>
-      <pubDate>Fri, 18 Sep 2020 02:42:26 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;😀😀😀😁😁🤣😁😂😃😄😂😗😆😎😣🤔😎😎&lt;/p&gt;
-
-        
-      
-      </description>
-      
-      
-      <content:encoded><![CDATA[<p>😀😀😀😁😁🤣😁😂😃😄😂😗😆😎😣🤔😎😎</p>]]></content:encoded>
-      
-      
-    </item>
     
     <item>
       <title>Git的学习笔记</title>
